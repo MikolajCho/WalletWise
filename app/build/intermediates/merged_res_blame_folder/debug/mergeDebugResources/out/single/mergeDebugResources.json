@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.example.walletwise.app-debug-51:/drawable_ic_list.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/drawable/ic_list.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/drawable_bg_dot.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/drawable/bg_dot.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/drawable_bg_receipt_placeholder.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/drawable/bg_receipt_placeholder.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/layout_activity_main.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/drawable_ic_chevron_left.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/drawable/ic_chevron_left.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/xml_file_paths.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/drawable_ic_chevron_right.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/layout_fragment_expense_detail.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/layout/fragment_expense_detail.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/drawable_bg_circle.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/drawable/bg_circle.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/layout_item_expense.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/layout/item_expense.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/layout_fragment_stats.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/layout/fragment_stats.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/layout_fragment_add_expense.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/layout/fragment_add_expense.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/drawable_ic_chart.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/drawable/ic_chart.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/layout_fragment_expense_list.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/layout/fragment_expense_list.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/drawable_ic_notification.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/drawable_ic_add.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.example.walletwise.app-debug-51:/layout_item_stat_row.xml.flat",
+        "source": "com.example.walletwise.app-main-53:/layout/item_stat_row.xml"
+    }
+]

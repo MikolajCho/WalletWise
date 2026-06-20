@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WalletWise</string>
+    <string name="add_expense">Dodaj wydatek</string>
+    <string name="edit_expense">Edytuj wydatek</string>
+    <string name="save">Zapisz</string>
+    <string name="cancel">Anuluj</string>
+    <string name="delete">Usuń</string>
+    <string name="edit">Edytuj</string>
+    <string name="amount_hint">Kwota</string>
+    <string name="description_hint">Opis (opcjonalnie)</string>
+    <string name="category_label">Kategoria</string>
+    <string name="receipt_label">Zdjęcie paragonu</string>
+    <string name="btn_camera">📷 Aparat</string>
+    <string name="btn_gallery">🖼 Galeria</string>
+    <string name="no_expenses">Brak wydatków w tym miesiącu.\nDotknij + aby dodać.</string>
+    <string name="no_data_stats">Brak wydatków w tym miesiącu</string>
+    <string name="all_categories">Wszystkie</string>
+    <string name="notification_title">WalletWise – Pamiętaj o wydatkach!</string>
+    <string name="notification_text">Czy dodałeś dzisiaj wszystkie wydatki? Kliknij, aby uzupełnić.</string>
+    <string name="delete_confirm_title">Usuń wydatek</string>
+    <string name="delete_confirm_msg">Czy na pewno chcesz usunąć ten wydatek?</string>
+    <string name="expense_saved">Wydatek zapisany!</string>
+    <string name="error_amount">Podaj poprawną kwotę</string>
+    <string name="error_category">Wybierz kategorię</string>
+    <string name="no_camera_permission">Brak uprawnień do kamery</string>
+</resources>

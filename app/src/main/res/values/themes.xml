@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.WalletWise" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ww_primary</item>
+        <item name="colorPrimaryDark">@color/ww_primary_dark</item>
+        <item name="colorAccent">@color/ww_secondary</item>
+    </style>
+
+    <style name="Theme.WalletWise" parent="Base.Theme.WalletWise" />
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/expenseListFragment">
+
+    <fragment
+        android:id="@+id/expenseListFragment"
+        android:name="com.example.walletwise.ui.list.ExpenseListFragment"
+        android:label="Wydatki"
+        tools:layout="@layout/fragment_expense_list">
+        <action
+            android:id="@+id/action_list_to_add"
+            app:destination="@id/addExpenseFragment" />
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/expenseDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.example.walletwise.ui.add.AddExpenseFragment"
+        android:label="Dodaj wydatek"
+        tools:layout="@layout/fragment_add_expense">
+        <argument
+            android:name="expenseId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/expenseDetailFragment"
+        android:name="com.example.walletwise.ui.detail.ExpenseDetailFragment"
+        android:label="Szczegóły"
+        tools:layout="@layout/fragment_expense_detail">
+        <argument
+            android:name="expenseId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_detail_to_add"
+            app:destination="@id/addExpenseFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.example.walletwise.ui.stats.StatsFragment"
+        android:label="Statystyki"
+        tools:layout="@layout/fragment_stats" />
+
+</navigation>
