@@ -1,54 +1,60 @@
-# WalletWise
+WalletWise
 
-Prosty menedżer wydatków domowych — projekt na zaliczenie przedmiotu Programowanie Urządzeń Mobilnych.
+A simple home expense manager — a final project for the Mobile Device Programming course.
+Project Description
 
-## Opis projektu
+A mobile app for budgeting. Features include:
 
-Aplikacja mobilna służąca do kontrolowania budżetu. Pozwala na:
-- Dodawanie wydatków (kwota, kategoria, opis, data).
-- Robienie zdjęcia paragonu do każdego wydatku.
-- Przeglądanie historii wydatków z podziałem na miesiące.
-- Filtrowanie wydatków po kategorii.
-- Wyświetlanie statystyk w formie wykresu kołowego.
-- Codzienne przypomnienie o wpisaniu wydatków (powiadomienie o 20:00).
+    Adding expenses (amount, category, description, date).
 
-## Zastosowane technologie
+    Attaching a photo of a receipt to each expense.
 
-| Element | Technologia |
-|---|---|
-| Język | Kotlin |
-| Baza danych | Room (SQLite) |
-| Powiadomienia | WorkManager |
-| Wykresy | MPAndroidChart |
-| Architektura | MVVM (ViewModel, LiveData, Repository) |
-| Interfejs | Material Design 3 |
+    Viewing expense history categorized by month.
 
-## Wykorzystane funkcje urządzenia
+    Filtering expenses by category.
 
-1. **Aparat**: Wykorzystanie intencji systemowej do robienia zdjęć paragonów i zapisywania ich w pamięci aplikacji.
-2. **Baza danych (Room)**: Trwałe przechowywanie danych lokalnie na urządzeniu.
-3. **Powiadomienia**: Systemowy mechanizm powiadomień przypominający o obsłudze aplikacji.
-4. **Wizualizacja**: Generowanie wykresów na podstawie wprowadzonych danych.
+    Displaying statistics via a pie chart.
 
-## Instrukcja uruchomienia
+    Daily reminders to log expenses (notification at 8:00 PM).
 
-1. Otwórz projekt w programie Android Studio.
-2. Poczekaj na zakończenie synchronizacji Gradle.
-3. Podłącz telefon z włączonym debugowaniem USB lub uruchom emulator.
-4. Kliknij przycisk **Run** (zielony trójkąt).
+Technologies Used
+Element	Technology
+Language	Kotlin
+Database	Room (SQLite)
+Notifications	WorkManager
+Charts	MPAndroidChart
+Architecture	MVVM (ViewModel, LiveData, Repository)
+UI	Material Design 3
+Hardware Features Utilized
 
-## Struktura plików
+    Camera: Utilizing system intents to take photos of receipts and save them to the app's internal storage.
 
-```
+    Database (Room): Persistent local data storage on the device.
+
+    Notifications: System notification mechanism for daily user reminders.
+
+    Data Visualization: Generating charts based on the inputted data.
+
+Setup & Running Instructions
+
+    Open the project in Android Studio.
+
+    Wait for the Gradle synchronization to complete.
+
+    Connect a physical device with USB debugging enabled or launch an emulator.
+
+    Click the Run button (green triangle).
+
+File Structure
+
 app/src/main/java/com/example/walletwise/
-├── data/            # Obsługa danych (Baza Room, Modele, Repozytorium)
-├── ui/              # Warstwa wizualna (Fragmenty, ViewModele, Adaptery)
-├── worker/          # Zadania w tle (Powiadomienia)
-└── utils/           # Klasy pomocnicze (Formatowanie daty, waluty)
-```
+├── data/            # Data handling (Room DB, Models, Repository)
+├── ui/              # Presentation layer (Fragments, ViewModels, Adapters)
+├── worker/          # Background tasks (Notifications)
+└── utils/           # Helper classes (Date and currency formatting)
 
-## Autor
+Project: WalletWise
 
-**Projekt:** WalletWise  
-**Przedmiot:** Programowanie Urządzeń Mobilnych  
-**Autor:** Mikołaj Chodur
+Course: Mobile Device Programming
+
+Author: Mikołaj Chodur
